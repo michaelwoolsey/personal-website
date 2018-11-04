@@ -11,3 +11,10 @@ body
 	color: #eeeeee;
 	background-color: #323232;
 }
+
+p
+{
+	color: #eeeeee;
+	padding-left: 5px;
+	padding-right: 5px;
+}
