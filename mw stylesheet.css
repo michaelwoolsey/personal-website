@@ -9,12 +9,12 @@ body
 {
 	font-family: "Open Sans";
 	color: #eeeeee;
-	background-color: #323232;
+	background-color: #eeeeee;
 }
 
 p
 {
-	color: #eeeeee;
+	color: #323232;
 	padding-left: 5px;
 	padding-right: 5px;
 }
