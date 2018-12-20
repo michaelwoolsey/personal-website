@@ -33,6 +33,23 @@ h4
     line-height: 1.25em;
 }
 
+.headerblock
+{
+	border-radius: 100px;
+	display: block;
+	word-wrap: break-word;
+	line-height: 30%;
+    max-width: 240px;
+    box-shadow: 0px 4px 0px rgba(47,47,47,0.5);
+    border: 2px solid #777777;
+    margin-bottom: 40px;
+    background-color: #dddddd;
+	margin-top: 20px;
+	padding-left: 35px;
+    padding-right: 35px;
+    transition: 0.2s;
+}
+
 .bigblock
 {
 	border-radius: 100px;
@@ -40,16 +57,31 @@ h4
 	word-wrap: break-word;
     max-width: 600px;
 	line-height: 30%;
-    box-shadow: -2px 2px 0px rgba(160,160,160,0.9);
+    box-shadow: 0px 3px 0px rgba(160,160,160,0.9);
 	border: 1px solid #aaaaaa;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	padding-left: 35px;
     padding-right: 35px;
 	background-color: #ffffff;
+    transition: 0.1s;
+        
 }
 
-.smallspace
+.headerblock:hover
 {
-	line-height: 60%;
+    background-color: #d7d7d7;
 }
+
+.headerblock:active
+{
+    box-shadow: 0px 0px 0px rgba(47,47,47,0.5);
+    margin-top: 24px;
+    margin-bottom: 36px;
+}
+
+.bigblock:hover
+{
+    background-color: #fcfcfc;
+}
+
